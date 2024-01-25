@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "OpenAI Simple Client"
+version = "0.1.0"
+description = "A simple chat client for OpenAI's GPT 3.5 and 4"
+authors = ["Roger Kibbe <roger@thekibbes.com>"]
+license = "Apache 2"  # or your preferred license
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai==0.27.0
+python-dotenv==0.19.1
+panel==0.12.1
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

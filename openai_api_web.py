@@ -60,7 +60,7 @@ def app_layout():
     vertical_separator = pn.Spacer(width=3, sizing_mode='stretch_height', styles={'background': 'black'})
 
     # app layout
-    app_header = pn.pane.Markdown("# OpenAI Simple Client - (Github)[https://github.com/rogerkibbe/openai-simple-client]", align="center")
+    app_header = pn.pane.Markdown("# OpenAI Simple Client - [Github](https://github.com/rogerkibbe/openai-simple-client)", align="center")
     return pn.Column(
         app_header,
         pn.Row(

@@ -6,10 +6,7 @@ authors = ["Roger Kibbe <roger@thekibbes.com>"]
 license = "Apache 2"  # or your preferred license
 
 [tool.poetry.dependencies]
-python = "^3.9"
-openai==0.27.0
-python-dotenv==0.19.1
-panel==0.12.1
+dependencies = {file = ["requirements.txt"]}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

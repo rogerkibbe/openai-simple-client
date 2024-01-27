@@ -11,7 +11,7 @@ This project is a simple web-based chat interface that allows users to interact 
 
 ## Installation
 
-Before you start, make sure you have Python 3.8 or higher installed on your system.
+Before you start, make sure you have Python 3.12 or higher installed on your system.
 
 1. **Clone the Repository**
    ```bash

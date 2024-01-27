@@ -5,6 +5,8 @@ description = "A simple chat client for OpenAI's GPT 3.5 and 4"
 authors = ["Roger Kibbe <roger@thekibbes.com>"]
 license = "Apache 2"  # or your preferred license
 
+requires-python = ">=3.12"
+
 [tool.poetry.dependencies]
 dependencies = {file = ["requirements.txt"]}
 

@@ -2,9 +2,8 @@
 name = "OpenAI Simple Client"
 version = "0.1.0"
 description = "A simple chat client for OpenAI's GPT 3.5 and 4"
-authors = "Roger Kibbe - https://www.linkedin.com/in/rkibbe/"
-license = "Apache 2"  # or your preferred license
-
+authors = ["Roger Kibbe - https://www.linkedin.com/in/rkibbe/"]
+license = "Apache-2.0"  # Ensure this is the correct SPDX identifier
 requires-python = ">=3.12"
 
 [tool.poetry.dependencies]
